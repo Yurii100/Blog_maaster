@@ -1,7 +1,7 @@
 <header>
     <span class="logo">Blog Master</span>
     <nav>
-        <a href="/Blog_master/index_1.php">Главная</a>
+        <a href="/Blog_master/index.php">Главная</a>
         <a href="/Blog_master/contacts.php">Контакты</a>
         <?php if (isset($_COOKIE['log'])) : ?>
             <a href="/Blog_master/add-article.php">Добавить статью</a>

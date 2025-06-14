@@ -44,7 +44,6 @@
 
                 <button type="button" id="mess_send">Добавить комментарий:</button>
             </form>
-
             <div class="comments">
                 <?php 
                     $sql = 'SELECT * FROM comments WHERE `article_id` = ? ORDER BY id DESC';
@@ -55,8 +54,8 @@
             
                     foreach ($comments as $comment) {
                         echo "<div class='comment'>
-                        <h2>$comment->name</h2>
-                        <p>$comment->message</p>
+                            <h2>$comment->name</h2>
+                            <p>$comment->message</p>
                         </div>";
 
                     }

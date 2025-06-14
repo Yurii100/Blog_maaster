@@ -17,7 +17,7 @@
                 <label for="email">Ваш email: </label>
                 <input type="email" name="email" id="email">
 
-                <label for="mess">Текст статьи: </label>
+                <label for="mess">Сообщение: </label>
                 <textarea name="mess" id="mess"></textarea>
 
                 <div class="error-mess" id="error-block"></div>
